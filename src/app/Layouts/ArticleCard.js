@@ -1,8 +1,6 @@
-import Image from "next/image";
 import React from "react";
-import { HiDotsHorizontal } from "react-icons/hi";
-import threedots from '../assets/icons/threedots.png'
 import Button from "./Button";
+import Image from "next/image";
 
 const ArticleCard = ({
   thumbnail,
@@ -19,8 +17,10 @@ const ArticleCard = ({
     <div className="article-card bg-white rounded-md shadow-sm p-3 my-4 w-full sm:w-full md:w-[50%] lg:w-[35%] transform hover:scale-105 transition-transform duration-300">
       <div className="thumbnail-container mb-4 h-48 overflow-hidden">
         <img
-          src={thumbnail}
-          alt={title}
+        src={thumbnail}
+        alt={title}
+          width={40}
+          height={40}
           className="w-full h-full object-cover rounded-md"
         />
       </div>

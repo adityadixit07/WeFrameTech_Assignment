@@ -1,10 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { AiOutlineEye } from "react-icons/ai";
 import statusup from "../assets/icons/statusup.png";
 import Vector from "../assets/icons/Vector.png";
-import { HiDotsHorizontal } from "react-icons/hi";
-import threedots from "../assets/icons/threedots.png";
 import Button from "./Button";
 
 const TopStoryCard = ({
